@@ -72,7 +72,7 @@
         <p>Entre em contato conosco e colabore com o site, Dúvidas, críticas & sugestões.</p>
         <div>
             <img src="img/telefone2.png" alt="fone">
-            <p><a href="tel:51981143722">(51)981143722</a></p>
+            <p><a id="telefone"></a></p>
         </div>
 
         <div>
@@ -86,7 +86,11 @@
     </footer>
 
 </body>
-
+<script>
+    var tel = document.getElementById("telefone");
+    tel.href = "tel:51981143722";
+    tel.innerHTML = "(51)981143722";
+</script>
 </html>
 
 
